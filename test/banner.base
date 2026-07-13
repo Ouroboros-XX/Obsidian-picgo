@@ -1,0 +1,9 @@
+views:
+  - type: cards
+    name: 表格
+    filters:
+      and:
+        - file.inFolder("Attachments/banner")
+        - file.ext != "base"
+    image: file.file
+    cardSize: 190
